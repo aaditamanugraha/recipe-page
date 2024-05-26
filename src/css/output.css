@@ -2141,6 +2141,16 @@ video {
   color: hsl(24 5% 18% / var(--tw-text-opacity));
 }
 
+.text-neutral-wenge-brown{
+  --tw-text-opacity: 1;
+  color: hsl(30 10% 34% / var(--tw-text-opacity));
+}
+
+.text-primary-nutmeg{
+  --tw-text-opacity: 1;
+  color: hsl(14 45% 36% / var(--tw-text-opacity));
+}
+
 .underline{
   text-decoration-line: underline;
 }
