@@ -17,6 +17,10 @@ module.exports = {
         youngSerif: ['"Young Serif"', "serif"],
         outfit: ['"Outfit"', "serif"],
       },
+      screens: {
+        tablet: "640px",
+        desktop: "1024px",
+      },
     },
   },
   plugins: [],

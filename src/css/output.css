@@ -726,32 +726,24 @@ video {
   margin-bottom: 0.5rem;
 }
 
-.mb-6{
-  margin-bottom: 1.5rem;
-}
-
-.mt-2{
-  margin-top: 0.5rem;
-}
-
-.mb-1{
-  margin-bottom: 0.25rem;
-}
-
 .mb-4{
   margin-bottom: 1rem;
+}
+
+.mb-6{
+  margin-bottom: 1.5rem;
 }
 
 .mb-8{
   margin-bottom: 2rem;
 }
 
-.ml-4{
-  margin-left: 1rem;
-}
-
 .ml-6{
   margin-left: 1.5rem;
+}
+
+.mt-2{
+  margin-top: 0.5rem;
 }
 
 .box-border{
@@ -865,23 +857,8 @@ video {
   width: weird-and-invalid;
 }
 
-.w-fit{
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
-.w-max{
-  width: -moz-max-content;
-  width: max-content;
-}
-
 .w-full{
   width: 100%;
-}
-
-.w-min{
-  width: -moz-min-content;
-  width: min-content;
 }
 
 .flex-shrink{
@@ -1087,12 +1064,12 @@ video {
   list-style-position: outside;
 }
 
-.list-disc{
-  list-style-type: disc;
-}
-
 .list-decimal{
   list-style-type: decimal;
+}
+
+.list-disc{
+  list-style-type: disc;
 }
 
 .appearance-none{
@@ -2056,6 +2033,11 @@ video {
   font-family: "Young Serif", serif;
 }
 
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .text-4xl{
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -2064,21 +2046,6 @@ video {
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-2xl{
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.text-sm{
-  font-size: 0.875rem;
-  line-height: 1.25rem;
 }
 
 .text-xs{
@@ -2171,11 +2138,6 @@ video {
   color: rgb(59 130 246 / var(--tw-text-opacity));
 }
 
-.text-primary-dark-raspberry{
-  --tw-text-opacity: 1;
-  color: hsl(332 51% 32% / var(--tw-text-opacity));
-}
-
 .text-neutral-dark-charcoal{
   --tw-text-opacity: 1;
   color: hsl(24 5% 18% / var(--tw-text-opacity));
@@ -2184,6 +2146,11 @@ video {
 .text-neutral-wenge-brown{
   --tw-text-opacity: 1;
   color: hsl(30 10% 34% / var(--tw-text-opacity));
+}
+
+.text-primary-dark-raspberry{
+  --tw-text-opacity: 1;
+  color: hsl(332 51% 32% / var(--tw-text-opacity));
 }
 
 .text-primary-nutmeg{
@@ -2622,6 +2589,44 @@ video {
 @media (min-width: 640px){
   .sm\:underline{
     text-decoration-line: underline;
+  }
+
+  .tablet\:mb-8{
+    margin-bottom: 2rem;
+  }
+
+  .tablet\:overflow-hidden{
+    overflow: hidden;
+  }
+
+  .tablet\:rounded-xl{
+    border-radius: 0.75rem;
+  }
+
+  .tablet\:rounded-3xl{
+    border-radius: 1.5rem;
+  }
+
+  .tablet\:rounded-lg{
+    border-radius: 0.5rem;
+  }
+
+  .tablet\:p-8{
+    padding: 2rem;
+  }
+
+  .tablet\:p-0{
+    padding: 0px;
+  }
+
+  .tablet\:px-32{
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .tablet\:py-8{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 }
 
