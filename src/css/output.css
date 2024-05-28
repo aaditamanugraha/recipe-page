@@ -861,6 +861,10 @@ video {
   width: 100%;
 }
 
+.min-w-mobile{
+  min-width: 23.438rem;
+}
+
 .flex-shrink{
   flex-shrink: 1;
 }
@@ -1064,12 +1068,8 @@ video {
   list-style-position: outside;
 }
 
-.list-decimal{
-  list-style-type: decimal;
-}
-
-.list-disc{
-  list-style-type: disc;
+.list-none{
+  list-style-type: none;
 }
 
 .appearance-none{
@@ -2524,6 +2524,11 @@ video {
   forced-color-adjust: none;
 }
 
+.custom-bullet::before{
+  margin-right: 1rem;
+  content: "•";
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;
@@ -2599,24 +2604,20 @@ video {
     overflow: hidden;
   }
 
-  .tablet\:rounded-xl{
-    border-radius: 0.75rem;
-  }
-
   .tablet\:rounded-3xl{
     border-radius: 1.5rem;
   }
 
-  .tablet\:rounded-lg{
-    border-radius: 0.5rem;
-  }
-
-  .tablet\:p-8{
-    padding: 2rem;
+  .tablet\:rounded-xl{
+    border-radius: 0.75rem;
   }
 
   .tablet\:p-0{
     padding: 0px;
+  }
+
+  .tablet\:p-8{
+    padding: 2rem;
   }
 
   .tablet\:px-32{

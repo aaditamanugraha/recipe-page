@@ -3,3 +3,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.custom-bullet::before {
+  @apply mr-4;
+  content: "•";
+}

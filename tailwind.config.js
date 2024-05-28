@@ -21,6 +21,9 @@ module.exports = {
         tablet: "640px",
         desktop: "1024px",
       },
+      minWidth: {
+        mobile: "23.438rem",
+      },
     },
   },
   plugins: [],
