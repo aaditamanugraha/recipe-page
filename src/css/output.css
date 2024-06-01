@@ -2637,6 +2637,83 @@ video {
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
+
+  .tablet\:py-32{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+}
+
+@media (min-width: 1024px){
+  .desktop\:my-32{
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+  }
+
+  .desktop\:my-9{
+    margin-top: 2.25rem;
+    margin-bottom: 2.25rem;
+  }
+
+  .desktop\:my-96{
+    margin-top: 24rem;
+    margin-bottom: 24rem;
+  }
+
+  .desktop\:w-max{
+    width: -moz-max-content;
+    width: max-content;
+  }
+
+  .desktop\:bg-white{
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  }
+
+  .desktop\:bg-black{
+    --tw-bg-opacity: 1;
+    background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  }
+
+  .desktop\:py-16{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .desktop\:py-32{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .desktop\:px-64{
+    padding-left: 16rem;
+    padding-right: 16rem;
+  }
+
+  .desktop\:py-12{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .desktop\:py-2{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .desktop\:py-24{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .desktop\:py-1{
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+
+  .desktop\:py-14{
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
 }
 
 @media (prefers-color-scheme: dark){
